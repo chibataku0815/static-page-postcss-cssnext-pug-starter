@@ -1,0 +1,12 @@
+doctype html
+block vars
+html(lang="ja")
+  head
+    include partial/_head.pug
+
+  body(class=key)
+    .wrapper
+      include partial/_header.pug
+      include partial/_nav.pug
+      block contents
+    include partial/_footer.pug

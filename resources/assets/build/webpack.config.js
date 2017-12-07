@@ -129,9 +129,9 @@ let webpackConfig = {
   resolveLoader: {
     moduleExtensions: ['-loader'],
   },
-  externals: {
-    jquery: 'jQuery',
-  },
+  // externals: {
+  //   jquery: 'jQuery',
+  // },
   plugins: [
     new CleanPlugin([config.paths.dist], {
       root: config.paths.root,

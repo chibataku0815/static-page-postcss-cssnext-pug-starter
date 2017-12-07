@@ -1,4 +1,4 @@
-// import 'sample';
+// import 'jquery';
 
 export default {
   init() {

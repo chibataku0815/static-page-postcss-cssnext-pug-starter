@@ -3,12 +3,9 @@
     "main": [
       "./scripts/main.js",
       "./styles/main.css"
-    ],
-    "customizer": [
-      "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/",
+  "publicPath": "..",
   "devUrl": "",
   "proxyUrl": "",
   "cacheBusting": "",
