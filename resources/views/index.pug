@@ -1,12 +1,12 @@
-extends _layout.pug
+extends common/_layout.pug
 
 block vars
-  include _config.pug
+  include common/_config.pug
   - var key = "top"
   - var page = pages[key]
 
 block contents
   h2=page.title
-  .keyvisual_container
-    p.keyvisual_image
+  .visual_container
+    p.visual_image
       img()

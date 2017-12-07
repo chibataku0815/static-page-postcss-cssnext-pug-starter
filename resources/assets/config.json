@@ -1,11 +1,11 @@
 {
   "entry": {
     "main": [
-      "./scripts/main.js",
-      "./styles/main.css"
+      "scripts/main.js",
+      "styles/main.css"
     ]
   },
-  "publicPath": "..",
+  "publicPath": ".",
   "devUrl": "",
   "proxyUrl": "",
   "cacheBusting": "",
