@@ -1,0 +1,40 @@
+/*initial value*/
+
+* {
+  all: initial; /* use initial for ALL PROPERTIES in one shot */
+}
+
+/*reduced calc()*/
+.flex {
+  width: calc(10px + 20);
+  min-width: calc(10 * 2px);
+  height: calc(100px / 2);
+  min-height: calc(10 + 20)px;
+}
+
+
+/*nesting*/
+a {
+  color:red;
+
+  & span {
+    color: white;
+  }
+}
+
+
+/*color() function*/
+
+.color {
+  color: color(red blackness(50%));
+}
+.color:hover {
+  color: color(red blackness(50%) whiteness(25%));
+}
+
+
+/*rem unit (px fallback)*/
+
+h1 {
+  font-size: 1.5rem;
+}

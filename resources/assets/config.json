@@ -1,0 +1,16 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.css"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "publicPath": "/",
+  "devUrl": "",
+  "proxyUrl": "",
+  "cacheBusting": "",
+  "watch": []
+}

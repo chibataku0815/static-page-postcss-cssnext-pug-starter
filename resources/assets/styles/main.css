@@ -1,0 +1,9 @@
+@import 'common/test.css';
+
+:root {
+  --myColor: red;
+}
+
+div {
+  background-color: var(--myColor)
+}
